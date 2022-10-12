@@ -5,12 +5,11 @@ function helloWorld() {
 // const helloWorld = function() {
 //     return "Hello, World!";
 // }
+
 function sayHello(input) {
-    if (input === "Alex") {
-        return "Hello, Alex!";
-    } else if (input === "Pat") {
-        return "Hello, Pat!";
+    if (input === undefined || input === true || input === false || input === null) {
+        return "Hello, World!"
     } else {
-        return "Hello, Jane!"
+        return "Hello, " + input + "!";
     }
 }
