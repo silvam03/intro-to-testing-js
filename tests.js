@@ -13,3 +13,9 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+//My Test
+describe("helloWorld", function(){
+    it("should be a defined function", function() {
+        expect(typeof helloWorld).toBe("function");
+    });
+})
